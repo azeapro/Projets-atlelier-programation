@@ -3,64 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Inscription étudiant</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
     <main class="main">
+
         <form class="fomulaire">
 
             <header class="heard">
-                <div class="divcarhead">
-
-                    <div>
-                        <h1>Inscription étudiant</h1>
-                        <p>Renseignez les informations de l'etudiant</p>
-                    </div>
+                <div>
+                    <h1 class="hh1">Inscription étudiant</h1>
+                    <p class="pp1">Renseignez les informations de l'étudiant</p>
                 </div>
             </header>
 
             <div class="carform">
 
-                <div class="clnom">
-                    <label>NOM</label>
-                    <input type="text" id="nom" placeholder="NOM" required>
+                <div class="h">
+                    <label for="nom">Nom</label>
+                    <input type="text" id="nom" placeholder="Traoré" required>
                 </div>
 
-                <div class="clprenom">
-                    <label>PRENOM</label>
-                    <input type="text" id="PRENOM" placeholder="PRENOM" required>
+                <div class="h">
+                    <label for="prenom">Prénom</label>
+                    <input type="text" id="prenom" placeholder="Aminata" required>
                 </div>
 
-                <div class="daten">
-                    <label>DATE DE NAISSANCE</label>
-                    <input type="date" id="date" placeholder="DATE DE NAISSANCE" required>
-                   
+                <div class="h full">
+                    <label for="date">Date de naissance</label>
+                    <input type="date" id="date" required>
                 </div>
 
-                <div class="clselect">
-                    <label>FILIERE</label>
-                    <select id="FILIERE">
-                        <option>SELECTIONNER UNE FILIERE</option>
-                        <option>Analyste programmation</option>
-                        <option>Reseaux et telecommunication</option>
+                <div class="h full">
+                    <label for="filiere">Filière</label>
+
+                    <select id="filiere" required>
+                        <option value="">Sélectionner une filière</option>
+                        <option>Analyse et programmation</option>
+                        <option>Réseaux et télécommunication</option>
                         <option>Gestion</option>
                         <option>Comptabilité</option>
                     </select>
+                </div>
 
-                    <hr>
+                <hr>
 
-                    <div class="butt">
-                              <button type="reset" class="clannuler">Annuler</button>
-                              <button type="submit" class="clannuler">Enregistrer</button>
-                    </div>
+                <div class="butt">
+                    <button type="reset" class="bu clannuler">
+                        Annuler
+                    </button>
 
-
+                    <button type="submit" class="bu clenregistrer">
+                        Enregistrer
+                    </button>
                 </div>
 
             </div>
-
-
 
         </form>
 
