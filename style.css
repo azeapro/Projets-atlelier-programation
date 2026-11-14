@@ -1,0 +1,118 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    
+
+}
+
+.fomulaire {
+    width: 100%;
+    max-width: 700px;
+    background: #FFFFFF;
+    border: 1px solid #D5DEEC;
+    border-radius: 24px;
+}
+
+.heard {
+    display: flex;
+    align-items: center;
+    padding: 36px 44px;
+    background: #0B1F4B;
+    border-radius: 23px 23px 0px 0px;
+}
+
+.hh1 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.pp1 {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #A9B9DB;
+}
+
+.carform {
+    padding: 44px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+}
+
+
+.h label {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.h input,.h select {
+    width: 100%;
+    height: 60px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #7890B3;
+    background: #F6F8FC;
+    border: 1px solid #D5DEEC;
+    border-radius: 16px;
+}
+
+.full {
+    grid-column: 1 / -1;
+}
+
+hr {
+    grid-column: 1 / -1;
+    border: none;
+    height: 1px;
+    background: #E6ECF5;
+}
+
+.butt {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 14px;
+}
+
+.bu {
+    height: 58px;
+    padding: 0 36px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.clannuler {
+    color: #0B1F4B;
+    background: #FFFFFF;
+    border: 1px solid #0B1F4B;
+}
+
+.clannuler:hover {
+    background: #F1F5F9;
+}
+
+.clenregistrer {
+    color: #FFFFFF;
+    background: #0B1F4B;
+    border: 1px solid #0B1F4B;
+}
+
+.clenregistrer:hover {
+    background: #18366F;
+}
